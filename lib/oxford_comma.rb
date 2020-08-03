@@ -6,6 +6,7 @@ elsif array.length == 2
   string = array.join(" and ")
   return string
 elsif array.length == 3
-  last_index =  
+  last_index = array.pop
+  string = array.join(", ") + " and #{last_index}"  
 end
 end
