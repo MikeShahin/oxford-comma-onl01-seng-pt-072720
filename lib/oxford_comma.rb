@@ -8,5 +8,6 @@ elsif array.length == 2
 elsif array.length == 3
   last_index = array.pop
   string = array.join(", ") + ", and #{last_index}"  
+  return string
 end
 end
