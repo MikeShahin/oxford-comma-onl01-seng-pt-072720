@@ -3,4 +3,8 @@ if array.length == 1
   string = array.join
   return string
 end
+
+if array.length == 2
+  string = array.join(" and ")
+  return string
 end
