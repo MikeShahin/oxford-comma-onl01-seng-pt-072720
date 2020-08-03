@@ -4,7 +4,7 @@ if array.length == 1
   return string
 end
 
-if array.length == 2
+elsif array.length == 2
   string = array.join(" and ")
   return string
 end
