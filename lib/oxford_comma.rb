@@ -1,6 +1,6 @@
 def oxford_comma(array)
 if array.length == 0
-  array.to_a
+  array.split("")
   return array
 end
 end
