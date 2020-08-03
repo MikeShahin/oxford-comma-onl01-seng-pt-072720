@@ -1,4 +1,5 @@
 def oxford_comma(array)
-if 
-array.join(", ")
+if array.index < 1
+  array.join(" and ")
+end
 end
